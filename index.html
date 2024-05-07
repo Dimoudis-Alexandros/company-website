@@ -5,20 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first page</title>
 
+    <link rel="stylesheet" href="style.css">
+
     <style>
-        h1{
-            color: yellow;
+        #about{
+            font-weight: bold;
         }
 
-        body{
-            background-color: lightblue;
+        section > div{
+            font-style: italic;
         }
-        p{
-            color: red;
+
+        h2 + p {
+            background-color: rgb(53, 53, 18);
+            font-style: italic;
         }
     </style>
 </head>
-<body>
+<body style="font-family: Arial;">
     <header>
         <h1>New page</h1>
     </header>
@@ -33,8 +37,8 @@
         <section>
             <p>My paragraph!</p>
             <article>
-                <h2>My Title</h2>
-                <p>This is a paragraph of the article.</p>
+                <h2 style="color: rgb(31, 31, 11)">My Title</h2>
+                <p style="color: white;">This is a paragraph of the article.</p>
                 <img src="html_photo.png" alt="coding photo" width="1150" height="700">
                 <video width="400" height="400" controls>
                     <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
